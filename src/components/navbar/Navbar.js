@@ -1,3 +1,4 @@
+import { Notifications, Search } from '@mui/icons-material'
 import React from 'react'
 import "./navbar.css"
 
@@ -13,7 +14,11 @@ const Navbar = () => {
           <span>New and Popular</span>
           <span>My List</span>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <Search/>
+            <Notifications/>
+            
+          </div>
         </div>
         </div>
   )
