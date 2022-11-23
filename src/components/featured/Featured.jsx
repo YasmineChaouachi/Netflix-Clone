@@ -1,17 +1,17 @@
 import { InfoOutlined, PlayArrow } from '@mui/icons-material'
 import React from 'react'
+import "./featured.css"
 
 function Featured() {
     return (
         <div className="featured">
-            <img src="https://theentertainmentpit.co.uk/wp-content/uploads/2020/12/Joker.jpg" alt="" />
+            <img src="https://th.bing.com/th/id/R.fd1ae11a6d5d54e540c4e9b55d31156a?rik=fCqpqYfKhGny5g&pid=ImgRaw&r=0" alt="" />
             <div className="info">
                 <img src="https://th.bing.com/th/id/R.282075199f679570f7a5b4dcfea3330a?rik=gcNlpRrwjl1HiQ&pid=ImgRaw&r=0" alt="" />
                 <span className="desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                    adipisci repellendus eum quasi illo, velit numquam, maxime tempora
-                    sint deleniti, aliquid qui? Facilis, adipisci! Ratione hic repudiandae
-                    temporibus eum earum?
+                    Batman,Lieutenant Gordon and District Attorney Harvey 
+                    Dent go up against the Joker,a criminal mastermind in 
+                    ghoulish makeup terrorizing Gothman City.
                 </span>
                 <div className="buttons">
                     <button className="play">
