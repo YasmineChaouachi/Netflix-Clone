@@ -1,10 +1,10 @@
 import Home from "./pages/home/Home";
 import "./App.css";
 import Watch from "./pages/watch/Watch";
-
+import Register from "./pages/register/Register";
 
 const App = () => {
-  return <Home />;
+  return <Register />;
 };
 
 export default App;
