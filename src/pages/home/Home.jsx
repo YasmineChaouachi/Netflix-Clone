@@ -1,22 +1,21 @@
-import React from 'react'
-import Featured from '../../components/featured/Featured'
-import List from '../../components/list/List'
-import Navbar from '../../components/navbar/Navbar'
-import "./Home.css"
-const Home = () => {
-    return (
-        <div className='home' >
-            <Navbar/>
-            <Featured/>
-            <List/>
-            <List/>
-            <List/>
-            <List/>
+import Featured from "../../components/featured/Featured";
+import List from "../../components/list/List";
+import Navbar from "../../components/navbar/Navbar";
 
-            
+// Import css
+import "./Home.css";
 
-        </div>
-    )
-}
+const Home = ({type}) => {
+  return (
+    <div className="home">
+      <Navbar />
+      <Featured type={type} />
+      <List />
+      <List />
+      <List />
+      <List />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

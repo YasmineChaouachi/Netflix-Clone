@@ -41,9 +41,7 @@ export default function ListItem({ index, item }) {
             </div>
             <div className="desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              veritatis eius debitis laborum. Repellendus cum consequuntur
-              dolorem, natus soluta magnam quo fugiat voluptate id impedit
-              voluptatem libero tempora vel dolores!
+              laborum. Repellendus cum consequuntur dolorem.
             </div>
             <div className="genre">Horror</div>
           </div>
