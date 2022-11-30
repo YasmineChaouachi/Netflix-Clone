@@ -17,13 +17,13 @@ export default function ListItem({ index, item }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        src="https://i0.wp.com/www.tvqc.com/wp-content/uploads/2019/10/jokerposter.jpg?fit=1024%2C640&ssl=1"
+        src={item.img}
         alt=""
       />
       {isHovered && (
         <>
           <video
-            src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRmrSN4muZUZ9KtXeyFJKG7E9vTz3kwT-pt1A"
+            src={item.trailer}
             autoPlay={true}
             loop
           />
@@ -35,15 +35,14 @@ export default function ListItem({ index, item }) {
               <ThumbDownOffAlt className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>1 hour 16 mins</span>
-              <span className="limit">+16</span>
-              <span>2014</span>
+              <span>{item.duration}</span>
+              <span className="limit">+{item.limit}</span>
+              <span>{item.year}</span>
             </div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              laborum. Repellendus cum consequuntur dolorem.
+             {item.description}
             </div>
-            <div className="genre">Horror</div>
+            <div className="genre">{item.genre}</div>
           </div>
         </>
       )}
